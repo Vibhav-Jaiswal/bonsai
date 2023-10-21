@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(104, 103, 103);
+  background: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  background: white;
+}
+
+header img {
+  width: 10rem;
+}
+
+.nav-links {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.login-btn {
+  width: 6rem;
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  border: 1.5px solid rgb(2, 117, 75);
+  border-radius: 0.4rem;
+  color: rgb(2, 117, 75);
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+
+.start-btn {
+  width: 9rem;
+  padding: 0.6rem 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: rgb(2, 202, 129);
+  color: white;
+  text-transform: uppercase;
+}
+
+.sec-1 {
+  padding: 4rem 17rem;
+}
+
+.sec-1-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-1-title .left-title {
+  font-size: 3rem;
+}
+
+.sec-1-title .right-title {
+  text-transform: uppercase;
+}
+
+.sec-1-title .right-title p {
+  margin-left: 11.5rem;
+  margin-bottom: 1rem;
+}
+
+.sec-1-title .right-title span {
+  font-size: 1.2rem;
+}
+
+.sec-1-title .right-title-btn {
+  width: 4rem;
+  height: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 10rem;
+  margin: 0 2rem;
+  background: rgb(2, 202, 129);
+}
+
+.sec-1-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
+
+.card {
+  width: 30rem;
+  height: 47rem;
+  padding: 4rem 4rem;
+  color: rgb(75, 75, 75);
+  border: 1px solid rgb(167, 166, 166);
+  border-radius: 0.3rem;
+  margin-top: 4rem;
+  background: white;
+}
+
+.card p {
+  font-size: 1.5rem;
+}
+
+.card .card-price {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.card .card-price .dolar {
+  margin-top: 1rem;
+}
+
+.card .card-price .price {
+  font-size: 5rem;
+}
+
+.card .card-price .month {
+  margin-top: 3rem;
+}
+
+.card .card-list {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  border-top: 2px solid rgb(2, 202, 129);
+  padding-top: 3rem;
+}
+
+.card .card-btn {
+  width: 22rem;
+  font-size: 1.8rem;
+  color: white;
+  background: rgb(2, 202, 129);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec-2 .sec-2-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.sec-2-container {
+  width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+  border-radius: 1rem;
+  background: white;
+  margin-top: 2rem;
+}
+
+.sec-2-container .link {
+  color: rgb(2, 202, 129);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 4rem;
+}
+
+.sec-2-container .container-title {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.sec-2-container .right {
+  font-size: 2rem;
+}
+
+.sec-2 .sec-2-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60rem;
+  font-size: 2.5rem;
+  padding: 4rem 3rem;
+  background: rgb(229, 242, 253);
+  margin-top: 10rem;
+  border-radius: 1rem;
+}
+
+.sec-2 .sec-2-bottom-container span {
+  color: rgb(2, 202, 129);
+}
+
+.sec-2 .sec-2-bottom-container .btn {
+  width: 10rem;
+  font-size: 1.1rem;
+  color: white;
+  background: rgb(2, 202, 129);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.2rem;
+  padding: 5rem 17rem;
+  margin-top: 3rem;
+}
+
+.sec-3 .sec-3-title {
+  color: rgb(2, 202, 129);
+  padding: 1.3rem;
+}
+
+.sec-3 .sec-3-qna {
+  line-height: 3.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5rem 17rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+footer ul {
+  margin-top: 5rem;
+}
+
+.left ul .price {
+  color: rgb(2, 202, 129);
+  margin-top: 3rem;
+}
+
+.mid ul .employe {
+  margin-top: 3rem;
+}
+
+.mid ul .template {
+  margin-top: 3rem;
+  color: rgb(104, 103, 103);
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.right ul .affi {
+  margin-top: 3rem;
+}
+
+.right ul .comp {
+  margin-top: 3rem;
+}
+
+@media all and (width <= 1180px) {
+  .card {
+    width: 60rem;
+  }
+}
+
+@media all and (width < 880px) {
+  header {
+    flex-direction: column;
+    line-height: 4rem;
+  }
+
+  .sec-1-title .left-title {
+    font-size: 2rem;
+  }
+}
+
+@media all and (width < 770px) {
+  .sec-1-title {
+    flex-direction: column;
+    line-height: 3rem;
+  }
+
+  .sec-2 .sec-2-title {
+    font-size: 2rem;
+  }
+
+  .sec-2-container {
+    width: 40rem;
+  }
+
+  .sec-2 .sec-2-bottom-container {
+    width: 40rem;
+    font-size: 2rem;
+  }
+
+  .sec-3 {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  
+  .sec-1{
+    padding: 2rem;
+  }
+}
+
+
